@@ -1,0 +1,91 @@
+nav ul {
+    float: right;
+    margin-top: -40px;
+
+}
+header nav ul li {
+    display: inline-block;
+}
+#logo {
+    float: left;
+    margin-top:-65px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 50px;
+}
+h2{
+    font-size: x-small;
+    margin-left: 60px;
+    color: darkgrey;
+    font-family: 'Abel', sans-serif;
+
+}
+h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+#line img {
+    background-repeat:repeat;
+}
+h4{
+    font-size: small;
+    color: darkgrey;
+}
+
+h5  {
+    float: right;
+    color: darkgrey;
+}
+
+#pizza{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+    position:relative;
+}
+
+#text {
+        float: left;
+        text-indent: 20px;
+
+}
+
+    #p2 {
+        margin-top: 20px ;
+        margin-bottom: 20px;
+
+    }
+.background {
+    background-image: url('../img/list-bg.png');
+    background-repeat: no-repeat;
+    margin-top: 190px;
+    margin-left: 150px ;
+}
+#list1{
+    /* float:left; */
+
+    margin-top: 30px;
+    display: inline-block;
+}
+#list2{
+    /* float: right;   */
+    margin-top: 30px;
+    display: inline-block;
+
+
+
+}
+footer{
+    text-align: center;
+}
+#info {
+    margin-top: 400px;
+}
+input[type=checkbox]:checked + label.che {
+    text-decoration: line-through;
+  }
