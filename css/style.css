@@ -29,8 +29,10 @@ h3{
     margin-top: 30px;
 
 }
-#line img {
-    background-repeat:repeat;
+.line  {
+    background-image: url('../img/hr-img.png');
+    background-repeat:repeat-x;
+    width: 100%;
 }
 h4{
     font-size: small;
@@ -55,7 +57,7 @@ h5  {
 
 }
 
-    #p2 {
+#p2 {
         margin-top: 20px ;
         margin-bottom: 20px;
 
@@ -64,28 +66,52 @@ h5  {
     background-image: url('../img/list-bg.png');
     background-repeat: no-repeat;
     margin-top: 190px;
-    margin-left: 150px ;
+    margin-left: 240px ;
 }
 #list1{
     /* float:left; */
 
     margin-top: 30px;
     display: inline-block;
-}
+    margin-left: 50px;
+    font-family: 'Courgette', cursive;}
 #list2{
     /* float: right;   */
     margin-top: 30px;
     display: inline-block;
-
+    margin-left: 250px;
+    font-family: 'Courgette', cursive;
 
 
 }
 footer{
     text-align: center;
+    margin-top: 150px;
+    color: darkgrey;
 }
 #info {
-    margin-top: 400px;
+    margin-top: 80px;
 }
 input[type=checkbox]:checked + label.che {
     text-decoration: line-through;
   }
+#name{
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 100px;
+
+}
+#van{
+    float: left;
+}
+#infoname{
+    margin-left: 100px;
+}
+button{
+float: right;
+color: white;
+background-color: maroon;
+border: solid black 1px;
+padding: 15px
+
+}
